@@ -13,7 +13,7 @@ const Index = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
 
   const navigationItems = [
-    { id: 'consultations' as Section, label: 'Консультации', icon: 'MessageSquare' },
+    { id: 'consultations' as Section, label: 'Консультации', icon: 'Home' },
     { id: 'documents' as Section, label: 'Документы', icon: 'FileText' },
     { id: 'payments' as Section, label: 'Платежи', icon: 'CreditCard' },
     { id: 'clients' as Section, label: 'Клиенты', icon: 'Users' },
